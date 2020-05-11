@@ -17,7 +17,7 @@
             android:layout_marginEnd="@dimen/default_margin_8"
             tools:text="Player1" />
 
-        <com.rodionov.customview.RacePointView
+        <com.rodionov.customview.view.RacePointView
             android:id="@+id/cvRacePoint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

@@ -1,9 +1,11 @@
-package com.rodionov.customview
+package com.rodionov.customview.view
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.RelativeLayout
+import com.rodionov.customview.R
+import com.rodionov.customview.entity.ControlUnit
 import kotlinx.android.synthetic.main.participant_view.view.*
 
 class ParticipantView : RelativeLayout {
@@ -38,6 +40,10 @@ class ParticipantView : RelativeLayout {
 
     fun setRadius(radius: Float) {
         this.cvRacePoint.setRadius(radius)
+    }
+
+    fun setControlUnits(units: List<ControlUnit>) {
+        this.cvRacePoint.setControlUnits(units)
     }
 
 }

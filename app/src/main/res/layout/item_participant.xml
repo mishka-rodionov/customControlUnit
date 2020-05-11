@@ -2,11 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackgroundBorderless"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/default_margin_16"
+    android:paddingBottom="@dimen/default_margin_16">
 
-    <com.rodionov.customview.ParticipantView
+    <com.rodionov.customview.view.ParticipantView
         android:id="@+id/pvParticipant"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
